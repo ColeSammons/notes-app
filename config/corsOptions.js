@@ -1,6 +1,6 @@
 const allowedOrigins = require("./allowedOrigins");
 
-// if one of the allowed origins(urls) then continue, else error
+// if one of the allowed origins(urls) then continue, else error.
 const corsOptions = {
   origin: (origin, callback) => {
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
