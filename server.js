@@ -50,7 +50,7 @@ app.all("*", (req, res) => {
   }
 });
 
-// Using custom error handler that overrides express default
+// Using custom error handler that overrides express default.
 app.use(errorHandler);
 
 mongoose.connection.once("open", () => {
