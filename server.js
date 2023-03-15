@@ -31,7 +31,7 @@ app.use(express.json());
 // parse cookies that are recieved
 app.use(cookieParser());
 
-// express.static acts as middleware, telling the server where to find static files
+// express.static acts as middleware, telling the server where to find static files.
 app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use("/", require("./routes/root"));
