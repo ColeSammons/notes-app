@@ -28,7 +28,7 @@ app.use(cors(corsOptions));
 // allows app to recieve and parse json data
 app.use(express.json());
 
-// parse cookies that are recieved
+// parse cookies that are recieved.
 app.use(cookieParser());
 
 // express.static acts as middleware, telling the server where to find static files.
