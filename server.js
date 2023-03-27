@@ -22,7 +22,7 @@ connectDB();
 
 app.use(logger);
 
-// enables all cors requests instead of individual routes
+// enables all cors requests instead of individual routes.
 app.use(cors(corsOptions));
 
 // allows app to recieve and parse json data.
