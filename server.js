@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3500;
 
 console.log(process.env.NODE_ENV);
 
-// Uses custom connection instead of default.
+// Uses custom connection instead of default..
 connectDB();
 
 app.use(logger);
